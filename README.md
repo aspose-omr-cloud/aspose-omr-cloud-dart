@@ -68,7 +68,7 @@ The configuration file (_aspose-omr-cloud-demo-data/test_config.json_) contains 
 
 Aspose.OMR Cloud supports end-to-end OMR process - from designing a form to recognizing its filled hardcopies. The workflow includes the following stages:
 
-![Stages of the OMR process](omr-cloud-stages.png)
+![Stages of the OMR process](https://releases.aspose.com/images/aspose/aspose_omr_cloud_stages.png)
 
 All resource-consuming tasks (generation and recognition of OMR forms) are done in the cloud, freeing up resources on the end user's device. All cloud tasks are queued, which prevents multiple simultaneous requests from interfering with each other and consuming too much processor time.
 
@@ -127,7 +127,7 @@ A respondent can fill out the form with a pen, pencil or marker, and use various
 
 Recognition accuracy threshold (`recognitionThreshold`) property of `OmrRecognizeTask` object determines how marks are processed during recognition. You can provide a value from 0 to 100. Lower values allow even the lightest marks to be recognized, but may cause dirt or paper defects to be treated as marks. Higher values require a more solid fill and may cause pencil marks or small checkmarks to be ignored.
 
-![Recognition accuracy threshold](recognition-threshold.png)
+![Recognition accuracy threshold](https://releases.aspose.com/images/aspose/aspose_omr_recognition_threshold.png)
 
 **Important:** Instruct respondents to use the same type of marks for all bubbles. Otherwise, recognition results may be inaccurate. If you plan to use your smartphone's camera instead of a scanner, we recommend a solid fill with a pen or marker.
 
@@ -138,4 +138,3 @@ Recognition accuracy threshold (`recognitionThreshold`) property of `OmrRecogniz
 - [Aspose.OMR Cloud API Reference](https://apireference.aspose.cloud/omr/)
 - [Free Support Forum](https://forum.aspose.cloud/c/omr/8)
 - [Other SDKs](https://github.com/aspose-omr-cloud)
-
